@@ -18,9 +18,9 @@ flutter_rust_bridge = "1.37.1"
 [build-dependencies]
 cbindgen = "0.24.3"
 
-#
-#[profile.release]
-#opt-level = 'z'
-#panic = 'abort'
-#lto = true
-#codegen-units = 1
+
+[profile.release]
+opt-level = 'z'
+panic = 'abort'
+lto = true
+codegen-units = 1
