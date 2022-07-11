@@ -1,0 +1,26 @@
+[package]
+name = "lamber"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "lamber"
+crate-type = ["cdylib", "staticlib"]
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
+anyhow = "1.0.58"
+zip = "0.6.2"
+flutter_rust_bridge = "1.37.1"
+
+[build-dependencies]
+cbindgen = "0.24.3"
+
+#
+#[profile.release]
+#opt-level = 'z'
+#panic = 'abort'
+#lto = true
+#codegen-units = 1

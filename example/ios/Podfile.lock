@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - lamber (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - lamber (from `.symlinks/plugins/lamber/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  lamber:
+    :path: ".symlinks/plugins/lamber/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  lamber: 299d30aeca5f3c6540becc605c617da9ed2df410
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
